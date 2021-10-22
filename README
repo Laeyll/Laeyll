@@ -1,0 +1,30 @@
+# Automation of system administration tasks
+### general-info
+simple python sort log application using python and doing statistic with sorted data 
+Authors Lim Maxence Lacheray Louis 
+### Table of content 
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [usage](#usage)
+
+### technologies
+* python version : 3.0
+
+### Setup 
+* have python version: 3.0 on your computer 
+* module needed : re and json
+### usage 
+* how json should look like 
+it will look like this :
+{
+      "time" : "-------",
+      "remote-ip" : "------",
+      "request" : "------",
+      "response" : "-------",
+      "bytes" : "------",
+      "referrer" : "------",
+      "system_agent" : "------",
+      "user_agent" : "------",
+}
+* statistic
