@@ -7,7 +7,7 @@ Authors Lim Maxence Lacheray Louis
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [usage](#usage)
-
+* [add on](#addon)
 
 ### technologies
 * python version : 3.0
@@ -43,4 +43,33 @@ if their is nothing in the log there will just be a -
        "bytes" : "-",
 }
 ```
+* dump a file into a json file
+ ```json
+python '.\Projet_python_LIM_LACHERAY_1A.py' --dump test.txt_example.txt
+```
+so --dump is the option then the name of the file to dumb and how you want the json file to be named
 * statistic
+we have done many statistic that we think usefull so here a exemple of how to use it
+ ```json
+python .\Projet_python_LIM_LACHERAY_1A.py --ip 	log.json
+ ```
+so the --ip is the option and it will show whitch ip come the more often  it can also be 
+ ```json
+--mobile
+```
+to show number of mobile that are used 
+ ```json
+--error
+```
+to show ip that make error (to much error can be usefull for security)
+ ```json
+--hours
+```
+to show hours sorted by popularity 
+ ```json
+--bots
+```
+to show differents bots 
+### add on 
+you can add graph to make stat more visible 
+or a graphic interface 
